@@ -16,13 +16,16 @@
 - Step 7: Save and run the application.
 
 ## PROGRAM:
+```
 Program to print the text “Hello World”.
-Developed by :NAVEEN S
+Developed by : NAVEEN S
 Registeration Number : 212221040114
 Department : BE-CSE
 Year : IIIyear
+```
 
 ## ACTIVITY_MAIN.XML
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -48,7 +51,10 @@ Year : IIIyear
         app:layout_constraintVertical_bias="0.75" />
 
   </androidx.constraintlayout.widget.ConstraintLayout>
+```
+
 ## MAINACTIVITY.JAVA
+```
 package com.example.helloworld;
 
 import android.os.Bundle;
@@ -103,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "onDestroy Invoked", Toast.LENGTH_LONG).show();
     }
 }
-
+```
 
 ## OUTPUT
 
